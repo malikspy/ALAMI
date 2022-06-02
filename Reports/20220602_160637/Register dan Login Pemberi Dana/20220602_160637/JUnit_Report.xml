@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register dan Login Pemberi Dana" time="96.117" tests="3" failures="1" errors="1">
+   <testsuite name="Register dan Login Pemberi Dana" tests="3" failures="1" errors="1" time="96.117" skipped="0" timestamp="2022-06-02 16:07:10" hostname="muktimalik - 202.3.218.138" id="Test Suites/Register dan Login Pemberi Dana">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637"/>
+         <property name="logFiles" value="/Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637/execution0.log"/>
+         <property name="attachments" value="/Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637/1654160924704.png, /Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637/1654160925604.png"/>
+         <property name="hostName" value="muktimalik - 202.3.218.138"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 102.0.5005.61"/>
+         <property name="hostAddress" value="202.3.218.138"/>
+         <property name="sessionId" value="f55da2b8346d969fe85c24f505ea478c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Registrasi Pemberi Dana" time="57.565" classname="Test Cases/Registrasi Pemberi Dana" status="PASSED">
+         <system-out><![CDATA[2022-06-02 16:07:10 - [TEST_CASE][PASSED] - Test Cases/Registrasi Pemberi Dana: Test Cases/Registrasi Pemberi Dana
+
+2022-06-02 16:07:11 - [TEST_STEP][PASSED] - Time = SimpleDateFormat(ddHHmmss).format(getInstance().getTime()): null
+
+2022-06-02 16:07:11 - [TEST_STEP][PASSED] - no = 62812 + Time: null
+
+2022-06-02 16:07:11 - [TEST_STEP][PASSED] - Phone = no: null
+
+2022-06-02 16:07:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 16:07:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 16:07:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 16:07:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 16:07:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-02 16:07:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-02 16:07:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev.p2p.alamisharia.co.id' successfully
+
+2022-06-02 16:07:21 - [MESSAGE][PASSED] - Navigate to 'https://dev.p2p.alamisharia.co.id' successfully
+
+2022-06-02 16:07:21 - [TEST_STEP][PASSED] - comment("Masuk ke halaman web login"): Masuk ke halaman web login
+
+2022-06-02 16:07:21 - [MESSAGE][INFO] - Masuk ke halaman web login
+
+2022-06-02 16:07:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Daftar/belum punya Akun"), "Belum memiliki Akun ? Daftar disini"): Actual text and expected text of test object 'Object Repository/Daftar/belum punya Akun' are matched.
+
+2022-06-02 16:07:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Daftar/belum punya Akun' are matched.
+
+2022-06-02 16:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/Daftar disini")): Object: 'Object Repository/Daftar/Daftar disini' is clicked on
+
+2022-06-02 16:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/Daftar disini' is clicked on
+
+2022-06-02 16:07:23 - [TEST_STEP][PASSED] - comment("Masuk menuju halaman jenis Akun"): Masuk menuju halaman jenis Akun
+
+2022-06-02 16:07:23 - [MESSAGE][INFO] - Masuk menuju halaman jenis Akun
+
+2022-06-02 16:07:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-02 16:07:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-02 16:07:26 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/1. Registrasi Pemberi Dana/Pemberi dana")): Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Pemberi dana' is clicked on
+
+2022-06-02 16:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Pemberi dana' is clicked on
+
+2022-06-02 16:07:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-06-02 16:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-06-02 16:07:31 - [TEST_STEP][PASSED] - setText(findTestObject("Daftar/1. Registrasi Pemberi Dana/Nama lengkap"), "Malik Mukti"): Text 'Malik Mukti' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Nama lengkap'
+
+2022-06-02 16:07:32 - [MESSAGE][PASSED] - Text 'Malik Mukti' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Nama lengkap'
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - ts = currentTimeMillis().toString(): null
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - tambahEmail = "mukti" + Time: null
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - email = tambahEmail: null
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Daftar/1. Registrasi Pemberi Dana/Email"), tambahEmail + "@inboxkitten.com"): Text 'mukti02160711@inboxkitten.com' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Email'
+
+2022-06-02 16:07:32 - [MESSAGE][PASSED] - Text 'mukti02160711@inboxkitten.com' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Email'
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Daftar/1. Registrasi Pemberi Dana/PhoneNumber"), Phone): Text '6281202160711' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/PhoneNumber'
+
+2022-06-02 16:07:32 - [MESSAGE][PASSED] - Text '6281202160711' is set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/PhoneNumber'
+
+2022-06-02 16:07:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Daftar/1. Registrasi Pemberi Dana/Password"), "nM+yxytsbVExwYpLLLYeHg=="): Text ****** has been set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Password'
+
+2022-06-02 16:07:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Password'
+
+2022-06-02 16:07:33 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/1. Registrasi Pemberi Dana/jenisAkun")): Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/jenisAkun' is clicked on
+
+2022-06-02 16:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/jenisAkun' is clicked on
+
+2022-06-02 16:07:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Daftar/1. Registrasi Pemberi Dana/BagaimanaKamuTauAlami"), "Instagram", true): All options with label 'Instagram' are selected in object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/BagaimanaKamuTauAlami'  using regular expression
+
+2022-06-02 16:07:35 - [MESSAGE][PASSED] - All options with label 'Instagram' are selected in object 'Object Repository/Daftar/1. Registrasi Pemberi Dana/BagaimanaKamuTauAlami'  using regular expression
+
+2022-06-02 16:07:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-06-02 16:07:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-06-02 16:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/1. Registrasi Pemberi Dana/Daftar Alami")): Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Daftar Alami' is clicked on
+
+2022-06-02 16:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/1. Registrasi Pemberi Dana/Daftar Alami' is clicked on
+
+2022-06-02 16:07:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - comment("Fase 2"): Fase 2
+
+2022-06-02 16:07:41 - [MESSAGE][INFO] - Fase 2
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/scroll")): Object: 'Object Repository/Daftar/scroll' is clicked on
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/scroll' is clicked on
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:41 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ALT, DOWN)): Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object id is null
+
+2022-06-02 16:07:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Keys 'ALT + DOWN + ' sent to object: 'tempBody'
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/2. Kebijakan dan Privasi/Ceklis Tertarik Update Info Terbaru")): Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Ceklis Tertarik Update Info Terbaru' is clicked on
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Ceklis Tertarik Update Info Terbaru' is clicked on
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Daftar/2. Kebijakan dan Privasi/Scroll Webview"), 3): Scroll to object 'Object Repository/Daftar/2. Kebijakan dan Privasi/Scroll Webview' successfully
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Daftar/2. Kebijakan dan Privasi/Scroll Webview' successfully
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - scrollToPosition(9999, 9999): Browser is scrolled to position x = 9999, y = 9999
+
+2022-06-02 16:07:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999, y = 9999
+
+2022-06-02 16:07:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-02 16:07:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-02 16:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/2. Kebijakan dan Privasi/Setujui kebijakan")): Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Setujui kebijakan' is clicked on
+
+2022-06-02 16:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Setujui kebijakan' is clicked on
+
+2022-06-02 16:07:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-06-02 16:07:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-02 16:07:48 - [TEST_STEP][PASSED] - click(findTestObject("Daftar/2. Kebijakan dan Privasi/Lanjutkan ke Slide 3")): Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Lanjutkan ke Slide 3' is clicked on
+
+2022-06-02 16:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Daftar/2. Kebijakan dan Privasi/Lanjutkan ke Slide 3' is clicked on
+
+2022-06-02 16:07:48 - [TEST_STEP][PASSED] - comment(" Next ke Fase 3 : Aktivasi Email"):  Next ke Fase 3 : Aktivasi Email
+
+2022-06-02 16:07:48 - [MESSAGE][INFO] -  Next ke Fase 3 : Aktivasi Email
+
+2022-06-02 16:07:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-06-02 16:08:08 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Aktivasi Email Alternativ" time="5.265" classname="Test Cases/Aktivasi Email Alternativ" status="ERROR">
+         <error type="ERROR" message="Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-02 16:08:08 - [TEST_CASE][ERROR] - Test Cases/Aktivasi Email Alternativ: Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+
+
+2022-06-02 16:08:08 - [TEST_STEP][PASSED] - executeJavaScript("window.open();", []): Execute JavaScript 'window.open();' successfully
+
+2022-06-02 16:08:08 - [MESSAGE][PASSED] - Execute JavaScript 'window.open();' successfully
+
+2022-06-02 16:08:08 - [TEST_STEP][PASSED] - currentWindow = getWindowIndex(): Current window's index is: 0
+
+2022-06-02 16:08:08 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-06-02 16:08:08 - [TEST_STEP][PASSED] - switchToWindowIndex(currentWindow + 1): Switched to window with index: '1'
+
+2022-06-02 16:08:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-06-02 16:08:08 - [TEST_STEP][PASSED] - navigateToUrl("https://inboxkitten.com/"): Navigate to 'https://inboxkitten.com/' successfully
+
+2022-06-02 16:08:13 - [MESSAGE][PASSED] - Navigate to 'https://inboxkitten.com/' successfully
+
+2022-06-02 16:08:13 - [TEST_STEP][ERROR] - setText(findTestObject("Aktivasi Email/MailBox"), email): Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+
+
+2022-06-02 16:08:13 - [MESSAGE][ERROR] - Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-06-02 16:08:08 - [TEST_CASE][ERROR] - Test Cases/Aktivasi Email Alternativ: Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="32.793" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-02 16:08:13 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-02 16:08:13 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login/Dashboard"), "Login untuk masuk ke akun Kamu."): Verify element text of test object 'Object Repository/Login/Dashboard' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2022-06-02 16:08:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //p[.='Login untuk masuk ke akun Kamu.']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 16:08:45 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+)
+[[ATTACHMENT|/Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637/1654160924704.png]]
+
+2022-06-02 16:08:46 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login/Dashboard' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/Users/muktimalik/git/ALAMI/Reports/20220602_160637/Register dan Login Pemberi Dana/20220602_160637/1654160925604.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-02 16:08:13 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login/Dashboard' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Login.run(Login:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Dashboard' located by '//p[.='Login untuk masuk ke akun Kamu.']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-02 16:07:10 - [TEST_SUITE][ERROR] - Register dan Login Pemberi Dana: Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-02 16:07:10 - [TEST_SUITE][ERROR] - Register dan Login Pemberi Dana: Test Cases/Aktivasi Email Alternativ FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: GlobalVariable for class: Script1654159720423
+	at Aktivasi Email Alternativ.run(Aktivasi Email Alternativ:17)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1654160797465.run(TempTestSuite1654160797465.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
