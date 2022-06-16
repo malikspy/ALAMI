@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register dan Login Pemberi Dana,Chrome 102.0.5005.61,,,2022-06-06 09:52:21,2022-06-06 09:54:29,2m - 7.938s,PASSED
+,,,,,,,
+Test Cases/Registrasi Pemberi Dana,Chrome 102.0.5005.61,,,2022-06-06 09:52:21,2022-06-06 09:53:14,52.663s,PASSED
+Time = SimpleDateFormat(ddHHmmss).format(getInstance().getTime()),Chrome 102.0.5005.61,,,2022-06-06 09:52:22,2022-06-06 09:52:22,0.042s,PASSED
+no = 62812 + Time,Chrome 102.0.5005.61,,,2022-06-06 09:52:22,2022-06-06 09:52:22,0.000s,PASSED
+Phone = no,Chrome 102.0.5005.61,,,2022-06-06 09:52:22,2022-06-06 09:52:22,0.179s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.61,,,2022-06-06 09:52:22,2022-06-06 09:52:27,5.139s,PASSED
+maximizeWindow(),Chrome 102.0.5005.61,,,2022-06-06 09:52:27,2022-06-06 09:52:27,0.179s,PASSED
+navigateToUrl(url),Chrome 102.0.5005.61,,,2022-06-06 09:52:27,2022-06-06 09:52:31,3.535s,PASSED
+"comment(""Masuk ke halaman web login"")",Chrome 102.0.5005.61,,,2022-06-06 09:52:31,2022-06-06 09:52:31,0.024s,PASSED
+"verifyElementText(findTestObject(""Daftar/belum punya Akun""), ""Belum memiliki Akun ? Daftar disini"")",Chrome 102.0.5005.61,,,2022-06-06 09:52:31,2022-06-06 09:52:31,0.561s,PASSED
+"click(findTestObject(""Daftar/Daftar disini""))",Chrome 102.0.5005.61,,,2022-06-06 09:52:31,2022-06-06 09:52:36,4.478s,PASSED
+"comment(""Masuk menuju halaman jenis Akun"")",Chrome 102.0.5005.61,User Memilih Pemberi Dana,,2022-06-06 09:52:36,2022-06-06 09:52:36,0.011s,PASSED
+delay(2),Chrome 102.0.5005.61,,,2022-06-06 09:52:36,2022-06-06 09:52:38,2.026s,PASSED
+"click(findTestObject(""Daftar/1. Registrasi Pemberi Dana/Pemberi dana""))",Chrome 102.0.5005.61,,,2022-06-06 09:52:38,2022-06-06 09:52:44,6.446s,PASSED
+delay(1),Chrome 102.0.5005.61,,,2022-06-06 09:52:44,2022-06-06 09:52:45,1.009s,PASSED
+"setText(findTestObject(""Daftar/1. Registrasi Pemberi Dana/Nama lengkap""), ""Mukti Malik"")",Chrome 102.0.5005.61,,,2022-06-06 09:52:45,2022-06-06 09:52:46,0.840s,PASSED
+ts = currentTimeMillis().toString(),Chrome 102.0.5005.61,,,2022-06-06 09:52:46,2022-06-06 09:52:46,0.009s,PASSED
+"tambahEmail = ""mukti"" + Time",Chrome 102.0.5005.61,,,2022-06-06 09:52:46,2022-06-06 09:52:46,0.002s,PASSED
+email = tambahEmail,Chrome 102.0.5005.61,,,2022-06-06 09:52:46,2022-06-06 09:52:46,0.001s,PASSED
+"setText(findTestObject(""Daftar/1. Registrasi Pemberi Dana/Email""), tambahEmail + ""@inboxkitten.com"")",Chrome 102.0.5005.61,,,2022-06-06 09:52:46,2022-06-06 09:52:46,0.286s,PASSED
+"setText(findTestObject(""Daftar/1. Registrasi Pemberi Dana/PhoneNumber""), Phone)",Chrome 102.0.5005.61,,,2022-06-06 09:52:46,2022-06-06 09:52:48,1.210s,PASSED
+"setEncryptedText(findTestObject(""Daftar/1. Registrasi Pemberi Dana/Password""), ""nM+yxytsbVExwYpLLLYeHg=="")",Chrome 102.0.5005.61,Password di enkripsi,,2022-06-06 09:52:48,2022-06-06 09:52:48,0.417s,PASSED
+"click(findTestObject(""Daftar/1. Registrasi Pemberi Dana/jenisAkun""))",Chrome 102.0.5005.61,Individual,,2022-06-06 09:52:48,2022-06-06 09:52:49,0.724s,PASSED
+"selectOptionByLabel(findTestObject(""Daftar/1. Registrasi Pemberi Dana/BagaimanaKamuTauAlami""), ""Instagram"", true)",Chrome 102.0.5005.61,Instagram,,2022-06-06 09:52:49,2022-06-06 09:52:49,0.290s,PASSED
+delay(4),Chrome 102.0.5005.61,,,2022-06-06 09:52:49,2022-06-06 09:52:53,4.019s,PASSED
+"click(findTestObject(""Daftar/1. Registrasi Pemberi Dana/Daftar Alami""))",Chrome 102.0.5005.61,Click Lanjutkan ke tahap 2,,2022-06-06 09:52:53,2022-06-06 09:52:53,0.310s,PASSED
+delay(2),Chrome 102.0.5005.61,,,2022-06-06 09:52:53,2022-06-06 09:52:55,2.011s,PASSED
+"comment(""Fase 2"")",Chrome 102.0.5005.61,Kebijakan dan Privasi,,2022-06-06 09:52:55,2022-06-06 09:52:55,0.007s,PASSED
+"click(findTestObject(""Daftar/scroll""))",Chrome 102.0.5005.61,,,2022-06-06 09:52:55,2022-06-06 09:52:57,1.453s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.102s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.062s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.043s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.033s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.038s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.039s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.033s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.037s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:57,0.277s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:57,2022-06-06 09:52:58,0.042s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.029s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.034s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.032s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.044s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.037s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.033s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.034s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.033s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.038s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.038s,PASSED
+"click(findTestObject(""Daftar/2. Kebijakan dan Privasi/Ceklis Tertarik Update Info Terbaru""))",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.112s,PASSED
+"scrollToElement(findTestObject(""Daftar/2. Kebijakan dan Privasi/Scroll Webview""), 3)",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.161s,PASSED
+"scrollToPosition(9999, 9999)",Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:52:58,0.045s,PASSED
+delay(2),Chrome 102.0.5005.61,,,2022-06-06 09:52:58,2022-06-06 09:53:00,2.013s,PASSED
+"click(findTestObject(""Daftar/2. Kebijakan dan Privasi/Setujui kebijakan""))",Chrome 102.0.5005.61,Menyetujui Kebijakan,,2022-06-06 09:53:00,2022-06-06 09:53:00,0.225s,PASSED
+delay(3),Chrome 102.0.5005.61,,,2022-06-06 09:53:00,2022-06-06 09:53:03,3.024s,PASSED
+"click(findTestObject(""Daftar/2. Kebijakan dan Privasi/Lanjutkan ke Slide 3""))",Chrome 102.0.5005.61,"Next ke fase 3
+",,2022-06-06 09:53:03,2022-06-06 09:53:04,0.188s,PASSED
+"comment("" Next ke Fase 3 : Aktivasi Email"")",Chrome 102.0.5005.61,,,2022-06-06 09:53:04,2022-06-06 09:53:04,0.006s,PASSED
+delay(10),Chrome 102.0.5005.61,,,2022-06-06 09:53:04,2022-06-06 09:53:14,10.021s,PASSED
+,,,,,,,
+Test Cases/Aktivasi Email Alternativ,Chrome 102.0.5005.61,,,2022-06-06 09:53:14,2022-06-06 09:53:49,35.130s,PASSED
+"executeJavaScript(""window.open();"", [])",Chrome 102.0.5005.61,,,2022-06-06 09:53:14,2022-06-06 09:53:14,0.091s,PASSED
+currentWindow = getWindowIndex(),Chrome 102.0.5005.61,,,2022-06-06 09:53:14,2022-06-06 09:53:14,0.060s,PASSED
+switchToWindowIndex(currentWindow + 1),Chrome 102.0.5005.61,,,2022-06-06 09:53:14,2022-06-06 09:53:14,0.031s,PASSED
+"navigateToUrl(""https://inboxkitten.com/"")",Chrome 102.0.5005.61,,,2022-06-06 09:53:14,2022-06-06 09:53:29,15.215s,PASSED
+delay(3),Chrome 102.0.5005.61,,,2022-06-06 09:53:29,2022-06-06 09:53:32,3.013s,PASSED
+"setText(findTestObject(""Aktivasi Email/MailBox""), email)",Chrome 102.0.5005.61,,,2022-06-06 09:53:32,2022-06-06 09:53:33,0.351s,PASSED
+"click(findTestObject(""Aktivasi Email/Btn Periksa Email""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:33,2022-06-06 09:53:33,0.248s,PASSED
+delay(5),Chrome 102.0.5005.61,,,2022-06-06 09:53:33,2022-06-06 09:53:38,5.012s,PASSED
+"click(findTestObject(""Aktivasi Email/Open Message""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:38,2022-06-06 09:53:38,0.143s,PASSED
+delay(1),Chrome 102.0.5005.61,,,2022-06-06 09:53:38,2022-06-06 09:53:39,1.026s,PASSED
+"switchToFrame(findTestObject(""Aktivasi Email/Frame""), 1)",Chrome 102.0.5005.61,,,2022-06-06 09:53:39,2022-06-06 09:53:41,1.995s,PASSED
+"click(findTestObject(""Aktivasi Email/Scroll Email""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:41,2022-06-06 09:53:41,0.135s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:53:41,2022-06-06 09:53:42,0.357s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:53:42,2022-06-06 09:53:42,0.033s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ALT, DOWN))",Chrome 102.0.5005.61,,,2022-06-06 09:53:42,2022-06-06 09:53:42,0.035s,PASSED
+delay(3),Chrome 102.0.5005.61,,,2022-06-06 09:53:42,2022-06-06 09:53:45,3.017s,PASSED
+"click(findTestObject(""Aktivasi Email/Klik Aktivasi""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:45,2022-06-06 09:53:45,0.252s,PASSED
+delay(2),Chrome 102.0.5005.61,,,2022-06-06 09:53:45,2022-06-06 09:53:47,2.005s,PASSED
+switchToWindowIndex(2),Chrome 102.0.5005.61,,,2022-06-06 09:53:47,2022-06-06 09:53:47,0.021s,PASSED
+"click(findTestObject(""Aktivasi Email/masuk ke akun saya""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:47,2022-06-06 09:53:49,1.830s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 102.0.5005.61,,,2022-06-06 09:53:49,2022-06-06 09:54:29,39.709s,PASSED
+"verifyElementText(findTestObject(""Login/Dashboard""), ""Login untuk masuk ke akun Kamu."")",Chrome 102.0.5005.61,,,2022-06-06 09:53:49,2022-06-06 09:53:49,0.090s,PASSED
+"setText(findTestObject(""Login/Email""), email + ""@inboxkitten.com"")",Chrome 102.0.5005.61,,,2022-06-06 09:53:49,2022-06-06 09:53:49,0.384s,PASSED
+"setEncryptedText(findTestObject(""Login/Password""), ""nM+yxytsbVExwYpLLLYeHg=="")",Chrome 102.0.5005.61,,,2022-06-06 09:53:49,2022-06-06 09:53:50,0.423s,PASSED
+delay(3),Chrome 102.0.5005.61,,,2022-06-06 09:53:50,2022-06-06 09:53:53,3.016s,PASSED
+"click(findTestObject(""Login/LoginBtn""))",Chrome 102.0.5005.61,,,2022-06-06 09:53:53,2022-06-06 09:54:11,18.278s,PASSED
+delay(15),Chrome 102.0.5005.61,,,2022-06-06 09:54:11,2022-06-06 09:54:26,15.020s,PASSED
+"verifyElementText(findTestObject(""Login/Verify login Successfully""), ""Lengkapi Profilmu Untuk Aktivasi Akun dan RDF (Rekening Dana Funder)"")",Chrome 102.0.5005.61,,,2022-06-06 09:54:26,2022-06-06 09:54:26,0.115s,PASSED
+delay(2),Chrome 102.0.5005.61,,,2022-06-06 09:54:26,2022-06-06 09:54:28,2.013s,PASSED
+closeBrowser(),Chrome 102.0.5005.61,,,2022-06-06 09:54:28,2022-06-06 09:54:29,0.268s,PASSED

@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Daftar/1. Registrasi Pemberi Dana/Pemberi dana'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Daftar/1. Registrasi Pemberi Dana/Nama lengkap'), 'Malik Mukti')
+WebUI.setText(findTestObject('Daftar/1. Registrasi Pemberi Dana/Nama lengkap'), 'Mukti Malik')
 
 String ts = System.currentTimeMillis().toString()
 
